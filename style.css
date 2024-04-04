@@ -22,7 +22,6 @@
   --buttom-image: url(./assets/Sun.svg);
 }
 body {
-  text-aling: center;
   background-image: var(--bg-url);
   background-repeat: no-repeat;
   background-position: top center;
@@ -91,6 +90,7 @@ animation: slide-in 0.4s forwards;
 
 /*links*/
 ul {
+  text-aling: center;
   list-style: none;
   display: flex;
   flex-direction: column;
